@@ -9,6 +9,9 @@ dist/
 .pytest_cache/
 .ruff_cache/
 
+# Locally installed crforge source, Gradle files and game tables
+/.crforge/
+
 # Editors / OS
 .vscode/
 .idea/
