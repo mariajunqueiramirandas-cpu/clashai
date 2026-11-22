@@ -9,14 +9,6 @@ dist/
 .pytest_cache/
 .ruff_cache/
 
-# Local config
-.env
-
-# Bot output
-screenshots/
-logs/
-*.log
-
 # Editors / OS
 .vscode/
 .idea/

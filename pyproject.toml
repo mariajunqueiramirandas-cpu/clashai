@@ -1,16 +1,10 @@
 [project]
 name = "clashai"
 version = "0.1.0"
-description = "A bot that plays Clash Royale through an Android emulator"
+description = "A Clash Royale bot"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = [
-    "adbutils>=2.8",       # talk to the emulator/device over ADB (screenshots, taps, swipes)
-    "opencv-python>=4.9",  # computer vision: template matching, image processing
-    "numpy>=1.26",
-    "pillow>=10.0",
-    "python-dotenv>=1.0",  # load settings from .env
-]
+dependencies = []
 
 [project.optional-dependencies]
 dev = [
